@@ -1,6 +1,6 @@
 # Briefs
 
-* [Old Money System](#OldMoneySystem)
+* [Old Money System](#old-money-system)
 * edge detection shader
 * score ten pin bowling
 * name generator
@@ -11,4 +11,4 @@
 * pattern shuffle
 * packing and unpacking data
 
-# Old Money System # {#OldMoneySystem}
+# Old Money System {#old-money-system}
