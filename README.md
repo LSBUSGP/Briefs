@@ -5,3 +5,4 @@
 * score ten pin bowling
 * name generator
 * offline ranking table
+* image compositing shader
