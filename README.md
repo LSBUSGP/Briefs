@@ -7,3 +7,5 @@
 * offline ranking table
 * image compositing shader
 * hit a moving target
+* audio frequency detector
+* pattern shuffle
