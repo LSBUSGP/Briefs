@@ -11,4 +11,4 @@
 * pattern shuffle
 * packing and unpacking data
 
-# Old Money System {#old-money-system}
+# Old Money System
