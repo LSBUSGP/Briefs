@@ -9,3 +9,4 @@
 * hit a moving target
 * audio frequency detector
 * pattern shuffle
+* packing and unpacking data
