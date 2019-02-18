@@ -7,8 +7,8 @@
 - [Offline Ranking Table](#offline-ranking-table)
 - [Image Compositing Shader](#image-compositing-shader)
 - [Hit a Moving Target](#hit-a-moving-target)
-- audio frequency detector
-- pattern shuffle
+- [Audio Frequency Detector](#audio-frequency-detector)
+- [Pattern Shuffle](#pattern-shuffle)
 - packing and unpacking data
 
 ## Old Money System
@@ -76,3 +76,29 @@ The following files must be packaged in your Unity package.
 
 ## Hit a Moving Target
 
+A 2D top down game with enemy AI needs a targeting system to shoot at the player. The shots are not instant so the system will need to aim ahead of the players current movement. Shots aimed at the player should hit if the player is not moving, or if the player is moving at a constant speed. To avoid hits, the player will need to change direction. As input to the system you will be given the player's location and current velocity relative to the enemy. It should return the angle to fire at the player.
+
+![Image of a 2D top down tank game](https://www.mobygames.com/images/shots/l/205949-wii-play-wii-screenshot-aim-your-tank-with-the-wii-remote.jpg "2D game")
+
+The following files must be packaged in your Unity package.
+
+1. enemy AI targeting script
+2. an example program with a sample enemy shooting at a player
+3. documentation
+
+## Audio Frequency Detector
+
+A rhythm based music game requires a script to generate level data from music tracks. You must provide a script that can detect 4 distinct frequencies from the currently playing music track. Include an example scene that shows or hides 4 boxes when the frequencies are present in the music. The frequencies to detect and the thresholds should be configurable in the Inspector.
+
+![Image of an audio based racing game](https://www.mobygames.com/images/shots/l/280862-audiosurf-windows-screenshot-avoid-the-grey-blocks-and-grab.jpg "Audiosurf")
+
+The following files must be packaged in your Unity package.
+
+1. audio frequency detecting script
+2. an example audio track (Creative Commons)
+3. an example program to show frequency detection
+4. documentation
+
+## Pattern Shuffle
+
+A puzzle game requires a script to semi-randomly shuffle its game components. The shuffle should be as unpredictable as possible but should avoid generating the same pattern within 4 shuffles.
