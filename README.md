@@ -17,7 +17,7 @@ Create a monetary system for a game based in British history before decimalisati
 
 ![Image of old coins](http://projectbritain.com/money/images/coins.jpg "Old money")
 
-The following files must be packaged in your Unity package.
+You must include the following in your Unity package:
 
 1. required scripts and assets
 2. example scene files and test assets
@@ -29,7 +29,7 @@ Create a post-processing effects filter to create an illustrated art look to the
 
 ![Image of a game using an edge detection shader](http://i.imgur.com/AC1ZSeV.png "example of edge detection for drawing outlines")
 
-The following files must be packaged in your Unity package.
+You must include the following in your Unity package:
 
 1. required shader and assets
 2. a scene demonstrating the shader with adjustable parameters
@@ -41,7 +41,7 @@ Create the scoring system for a game of [ten-pin bowling](https://en.wikipedia.o
 
 ![Image of a complete scored game of ten pin bowling](http://slocums.homestead.com/files/scrsheet.gif "example score")
 
-The following files must be packaged in your Unity package.
+You must include the following in your Unity package:
 
 1. required scripts
 2. an example scene different scoring scenarios
@@ -53,7 +53,7 @@ A space exploration game requires a star system name generator to randomly creat
 
 ![Image of a galaxy](https://upload.wikimedia.org/wikipedia/commons/c/c3/NGC_4414_%28NASA-med%29.jpg "galaxy")
 
-The following files must be packaged in your Unity package.
+You must include the following in your Unity package:
 
 1. name generator script
 2. duplicate checking script
@@ -67,7 +67,7 @@ A single player arcade game requires the generation of offline ranking tables sh
 
 ![Image of an arcade game high score table](http://www.howdesign.com/wp-content/uploads/arcade-high-scores1.jpg "high score table")
 
-The following files must be packaged in your Unity package.
+You must include the following in your Unity package:
 
 1. ranking table generator script
 2. an example program allow generated ranking tables to be viewed
@@ -80,7 +80,7 @@ A 2D top down game with enemy AI needs a targeting system to shoot at the player
 
 ![Image of a 2D top down tank game](https://www.mobygames.com/images/shots/l/205949-wii-play-wii-screenshot-aim-your-tank-with-the-wii-remote.jpg "2D game")
 
-The following files must be packaged in your Unity package.
+You must include the following in your Unity package:
 
 1. enemy AI targeting script
 2. an example program with a sample enemy shooting at a player
@@ -92,7 +92,7 @@ A rhythm based music game requires a script to generate level data from music tr
 
 ![Image of an audio based racing game](https://www.mobygames.com/images/shots/l/280862-audiosurf-windows-screenshot-avoid-the-grey-blocks-and-grab.jpg "Audiosurf")
 
-The following files must be packaged in your Unity package.
+You must include the following in your Unity package:
 
 1. audio frequency detecting script
 2. an example audio track (Creative Commons)
@@ -101,24 +101,27 @@ The following files must be packaged in your Unity package.
 
 ## Pattern Shuffle
 
-A puzzle game requires a script to semi-randomly shuffle its game components. Each shuffle should mix the components given components and the shuffle should be as unpredictable as possible, but should also avoid repetition of the same piece in subsequent shuffles. That is, the first 4 components of a new shuffle shouldn't contain the last 4 components of the previous one. You will be provided with a list of integers representing the individual components. You must return a new shuffle each time the `Shuffle` function is called. You must aditionally provide a program to stress test the shuffle function to ensure that it meets the requirements on subsequent shuffles.
+A puzzle game requires a script to semi-randomly shuffle its game components. Each shuffle should mix the components given and be as unpredictable as possible, but should also avoid repetition of the same piece in subsequent shuffles. For example, the first 4 components of a new shuffle shouldn't contain the last 4 components of the previous one. The number of components in the list and the limit on repeating values must be customisable through the `Inspector`.
 
-![Image of a puzzle game with different puzzle pieces]()
+You will be provided with a list of integers representing the individual components. You must return a new shuffle each time the `Shuffle` function is called. You must additionally provide a program to test the shuffle function to ensure that it meets the repetition requirements. This test must also include a demonstration test case to show that it can catch errors.
 
-The following files must be packaged in your Unity package.
+![Image of a puzzle game with different puzzle pieces](https://www.focuseducational.com/images/user/fullsize/shapes.jpg "puzzle pieces")
+
+You must include the following in your Unity package:
 
 1. a script containing the shuffle function
-2. a test script that stress tests the function
-3. documentation
+2. a test script and scene that stress tests the function
+3. a test scene that demonstrates the test program can catch errors
+4. documentation
 
 ## Packing and Unpacking Data
 
-An online multiplayer game requires game state data packets to be exchanged between players. The bandwidth for data transmission is extremely tight. You must pack the position and velocity of every player, bullet, and pickup to be transmitted to the multiplayer client machines.
+An online multi-player game requires game state data packets to be exchanged between players. The bandwidth for data transmission is extremely tight so make every byte count. You must provide functions to pack and unpack the identity, state, position, and velocity of every player, bullet, and pick-up to be transmitted to the multi-player client machines. You must include a test scene which shows two views: the original host data; and the client view with object identities, states, positions, and velocities reconstructed from the packed data.
 
-![Image of a multiplayer FPS]()
+![Image of a multi-player FPS](https://thelatenightsession.files.wordpress.com/2016/02/doom-xbla-split.jpg "DOOM")
 
-The following files must be packaged in your Unity package.
+You must include the following in your Unity package:
 
 1. a script containing your data packing and unpacking functions
-2. a test script
+2. a test scene which demonstrates both a host and client view of the data
 3. documentation
