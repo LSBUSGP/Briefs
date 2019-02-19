@@ -9,7 +9,7 @@
 - [Hit a Moving Target](#hit-a-moving-target)
 - [Audio Frequency Detector](#audio-frequency-detector)
 - [Pattern Shuffle](#pattern-shuffle)
-- packing and unpacking data
+- [Packing and Unpacking Data](#packing-and-unpacking-data)
 
 ## Old Money System
 
@@ -101,4 +101,24 @@ The following files must be packaged in your Unity package.
 
 ## Pattern Shuffle
 
-A puzzle game requires a script to semi-randomly shuffle its game components. The shuffle should be as unpredictable as possible but should avoid generating the same pattern within 4 shuffles.
+A puzzle game requires a script to semi-randomly shuffle its game components. Each shuffle should mix the components given components and the shuffle should be as unpredictable as possible, but should also avoid repetition of the same piece in subsequent shuffles. That is, the first 4 components of a new shuffle shouldn't contain the last 4 components of the previous one. You will be provided with a list of integers representing the individual components. You must return a new shuffle each time the `Shuffle` function is called. You must aditionally provide a program to stress test the shuffle function to ensure that it meets the requirements on subsequent shuffles.
+
+![Image of a puzzle game with different puzzle pieces]()
+
+The following files must be packaged in your Unity package.
+
+1. a script containing the shuffle function
+2. a test script that stress tests the function
+3. documentation
+
+## Packing and Unpacking Data
+
+An online multiplayer game requires game state data packets to be exchanged between players. The bandwidth for data transmission is extremely tight. You must pack the position and velocity of every player, bullet, and pickup to be transmitted to the multiplayer client machines.
+
+![Image of a multiplayer FPS]()
+
+The following files must be packaged in your Unity package.
+
+1. a script containing your data packing and unpacking functions
+2. a test script
+3. documentation
