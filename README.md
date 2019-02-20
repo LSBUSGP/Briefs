@@ -75,6 +75,18 @@ You must include the following in your Unity package:
 4. a test scene where new scores can be added
 5. documentation
 
+## Image Compositing Shader
+
+A game requires the ability to place the player's live image into the game's world. The game requires that the player sits in front of a green or blue screen so that their image can be composited into the game's graphics. A shader is required to compose the player's portrait with a game supplied background image. The game must be able to customise the colour and tolerance of the colour key removal. The shader must work with any supplied image source but should demonstrate the functionality by using the live feed from an attached web cam.
+
+![Image of a game embedding the player's picture]()
+
+You must include the following in your Unity package:
+
+1. image compositing shader and customising scripts
+2. a scene compositing feed from the webcam and another texture
+3. documentation
+
 ## Hit a Moving Target
 
 A 2D top down game with enemy AI needs a targeting system to shoot at the player. The shots are not instant so the system will need to aim ahead of the player's current position. Shots aimed at the player should hit if the player is not moving, or if the player is moving at a constant speed. To avoid hits, the player must need to change while the shot is travelling. As input to the system you will be given the player's relative location and velocity. You must return the relative clockwise angle in degrees needed to hit the player.
