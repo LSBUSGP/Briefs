@@ -9,3 +9,30 @@ You must include the following in your Unity package:
 1. required scripts and assets
 2. example scene files and test assets
 3. documentation
+
+## Extra Credit
+
+Add support for all the coins and notation:
+
+- farthing (¼d)
+- halfpenny (½d)
+- penny (1d)
+- twopence (2d)
+- threepence (3d)
+- fourpence (4d)
+- sixpence (6d)
+- shilling (1/-)
+- florin (2/-)
+- half crown (2/6d)
+- double florin (4/-)
+- crown (5/-)
+- quarter guinea (5/3d)
+- third guinea (7/-)
+- half sovereign (10/-)
+- half guinea (10/6d)
+- sovereign (£1)
+- guinea (£1/1s)
+- two guineas (£2/2s)
+- five pound (£5)
+- five guineas (£5/5s)
+
