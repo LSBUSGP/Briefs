@@ -35,4 +35,3 @@ Add support for all the coins and notation:
 - two guineas (£2/2s)
 - five pound (£5)
 - five guineas (£5/5s)
-
