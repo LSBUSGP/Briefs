@@ -1,8 +1,8 @@
 # Briefs
 
-Year one students are expected to produce 3 pieces of work to the following briefs. Year two students are expected to produce 4.
+Year one students must attempt three projects to the following briefs. Year two students must attempt four.
 
-You have two weeks to work on your chosen brief. After each two weeks, submit your work, even if it is unfinished and move on to your next brief.
+You have two weeks to work on your chosen brief. After each two weeks, submit your project, even if it is incomplete and move on to your next brief.
 
 ## Beginner
 
