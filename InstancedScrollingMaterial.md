@@ -13,4 +13,4 @@ You must include the following in your Unity package:
 
 ## Extra Credit
 
-For extra credit on this brief, replace the material with a material instance so that the original material file is not modified. This allows multiple instances of the same material to exist with the same scene scrolling in different directions at the same time.
+For extra credit on this brief, ensure that copies of Materials are not leaked. When you copy a material in a Renderer, that copy is not automatically destroyed when the scene unloads. Make sure all copies are cleaned up when the scene unloads.
