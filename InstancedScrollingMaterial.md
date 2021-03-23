@@ -1,6 +1,6 @@
 # Instanced Scrolling Material
 
-A script is required to scroll a tile-able texture to give the appearance of liquid flowing. The speed and direction of the scrolling must be parameters and the speed must be independent of the frame rate. (Hint: use `Time.deltaTime` to keep the speed consistent and independent of the frame rate.)
+A script is required to scroll the uv coordinates of a tile-able texture to give the appearance of liquid flowing. The speed and direction of the scrolling must be parameters and the speed must be independent of the frame rate. (Hint: use `Time.deltaTime` to keep the speed consistent and independent of the frame rate.)
 
 ![water uv animation](https://danlaukat.files.wordpress.com/2014/12/waterfall.gif)
 
