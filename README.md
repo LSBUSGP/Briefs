@@ -6,7 +6,7 @@ You have two weeks to work on your chosen brief. After each two weeks, submit yo
 
 ## Beginner
 
-- [Auto Scaling Text Box](AutoScalingTextBox)
+- [Radar](Radar)
 - [Speedometer](Speedometer)
 - [Instanced Scrolling Material](InstancedScrollingMaterial)
 - [Rolling Road](RollingRoad)
