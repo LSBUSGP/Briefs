@@ -13,4 +13,4 @@ You must include the following in your Unity package:
 
 ## Extra Credit
 
-For extra credit on this brief, ensure that copies of Materials are not leaked. When you copy a material in a Renderer, that copy is not automatically destroyed when the scene unloads. Make sure all copies are cleaned up when the scene unloads.
+For extra credit on this brief, ensure that copies of Materials are not leaked. When you access a material in a Renderer, a new instance of the material is created. When the object is destryoed, that material is not automatically unloaded. Make sure materials don't leak into the scene.
