@@ -28,3 +28,4 @@ You have two weeks to work on your chosen brief. After each two weeks, submit yo
 - [Hit a Moving Target](HitMovingTarget)
 - [Audio Frequency Detector](AudioFrequencyDetector)
 - [Packing and Unpacking Data](PackingAndUnpackingData)
+- [Encoding and Decoding Files](EncodingAndDecodingFiles)
