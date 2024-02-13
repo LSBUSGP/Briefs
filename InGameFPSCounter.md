@@ -13,4 +13,4 @@ You must include the following in your Unity package:
 
 ## Extra Credit
 
-For extra credit on this brief, include an on screen graph showing the historical average frame rate of the last few seconds.
+For extra credit on this brief: include an on screen graph showing the historical average frame rate of the last few seconds; show the frame rate in miliseconds per frame as well as frames per second; keep a record of 1% or 0.1% lows.
