@@ -2,7 +2,7 @@
 
 Create an onboard radar system for a game to track the relative direction and distance to the player of other game objects. Directly up on the radar screen should represent the forward direction of the player's object. The package must include a `RadarContact` script. Any Unity transform with the `RadarContact` script attached should show up on the radar screen.
 
-![Radar](https://www.codeproject.com/KB/grid/DrawingRadarDisplayWithCS/Radar1.jpg)
+![Radar](images/radar.jpg)
 
 You must include the following in your Unity package:
 
