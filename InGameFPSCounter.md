@@ -2,7 +2,7 @@
 
 A frame rate sensitive game, such as a VR game must maintain a consistent high frame rate or it can induce nausea. You must create an on screen frame counter during development to show areas of the game where the frame rate drops. The counter needs to be enabled only in development build version and must not appear in final builds. The value should be averaged over the last second so it doesn't jump around too fast to be visible.
 
-![FPS HUD](https://forum.unity.com/attachments/tree_fresnel50-png.456737/)
+![FPS HUD](images/graphy.gif)
 
 You must include the following in your Unity package:
 
