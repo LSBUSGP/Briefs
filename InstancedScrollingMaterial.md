@@ -1,6 +1,6 @@
 # Instanced Scrolling Material
 
-A script is required to scroll the uv coordinates of a tile-able texture to give the appearance of liquid flowing. The speed and direction of the scrolling must be parameters and the speed must be independent of the frame rate. (Hint: use `Time.deltaTime` to keep the speed consistent and independent of the frame rate.)
+A script is required to scroll the uv coordinates of a tile-able texture to give the appearance of liquid flowing. The speed and direction of the scrolling must be parameters and the speed must be independent of the frame rate. (Hint: use `Time.deltaTime` to keep the speed consistent and independent of the frame rate.) It should be possible to set different speeds and direction for different copies of the material within the same scene. 
 
 ![water uv animation](https://danlaukat.files.wordpress.com/2014/12/waterfall.gif)
 
@@ -13,4 +13,4 @@ You must include the following in your Unity package:
 
 ## Extra Credit
 
-For extra credit on this brief, ensure that copies of Materials are not leaked. When you access a material in a Renderer, a new instance of the material is created. When the object is destryoed, that material is not automatically unloaded. Make sure materials don't leak into the scene.
+For extra credit on this brief, ensure that copies of Materials are not leaked. When you access a material in a Renderer, a new instance of the material is created. When the object is destryoed, that material is not automatically unloaded. Make sure materials don't leak memory when going from scene to scene.
