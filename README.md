@@ -11,6 +11,7 @@ You have two weeks to work on your chosen brief. After each two weeks, submit yo
 - [Instanced Scrolling Material](InstancedScrollingMaterial)
 - [Rolling Road](RollingRoad)
 - [In Game FPS Counter](InGameFPSCounter)
+- [Find The Area](FindTheArea)
 
 ## Intermediate
 
